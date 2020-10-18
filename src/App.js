@@ -23,8 +23,8 @@ function App() {
   return (
     <div>
       <header>
-        <h3>Doggo of the day</h3>
-        <div>
+        <h3>Your Favrorites</h3>
+        {/* <div>
           <button onClick={() => fetchDoggo()}>New Doggo</button>
         </div>
         {dogImg !== "" ? (
@@ -33,7 +33,7 @@ function App() {
           </div>
         ) : (
           <div>Loading Image</div>
-        )}
+        )} */}
       </header>
     </div>
   );
